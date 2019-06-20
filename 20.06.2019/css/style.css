@@ -1,0 +1,49 @@
+body {
+  height: 5000px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.menu{
+  display: flex;
+  position: relative;
+}
+.menu li{
+  /* width: 200px; */
+  padding: 20px 50px;
+  text-align: center;
+  background-color: antiquewhite;
+  transition: all 0.3s linear;
+  margin-right: 10px;
+}
+.menu li:hover{
+  background-color: tan;
+}
+.menu li.active{
+  background-color: tan;
+}
+.runner{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  background-color: crimson;
+  width: 170px;
+  transition: all 0.3s linear;
+}
